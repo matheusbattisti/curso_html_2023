@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- head é a configuração da página -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alguma coisa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <!-- body é onde os elementos que aparecem na tela estão -->
+  <body style="padding-bottom: 500px">
+    <header>
+      <h4>Minha marca</h4>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+      </nav>
+    </header>
+    <!-- Tags de texto -->
+    <main>
+      <h1>Algum título 2</h1>
+      <p>Aqui eu posso escrever um texto maior.</p>
+      <h2>Outro título</h2>
+      <h6>Mais um título</h6>
+      <p>Eu tenho um texto e <strong>isso é importante.</strong></p>
+      <p>Eu tenho um texto e <em>isso é importante.</em></p>
+      <!-- Imagens e links -->
+      <img src="imagem.jpg" alt="Feira de fruta" />
+      <img
+        src="https://images.pexels.com/photos/15327251/pexels-photo-15327251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      />
+      <p>
+        <a href="https://www.google.com">Google</a>
+      </p>
+      <p>
+        <a
+          href="https://horadecodar.com.br/comunidade-hora-de-codar/"
+          target="_blank"
+          >Hora de Codar</a
+        >
+      </p>
+    </main>
+    <!-- Lista -->
+    <h2 id="meu-titulo">Lista de tarefas:</h2>
+    <ul>
+      <li class="item">Lavar o carro</li>
+      <li class="item">Estudar com o Matheus</li>
+      <li class="item">Entrar para a Comunidade</li>
+      <li class="item">Me tornar um programador em menor tempo possível</li>
+    </ul>
+    <ol>
+      <li>Fazer a massa</li>
+      <li>Assar alguma coisa</li>
+      <li>Decorar o bolo</li>
+      <li>Colocar a cereja</li>
+    </ol>
+  </body>
+  <!-- Tabelas -->
+  <table>
+    <tr>
+      <th>Nome:</th>
+      <th>Profissão:</th>
+    </tr>
+    <tr>
+      <td>Matheus</td>
+      <td>Programador</td>
+    </tr>
+    <tr>
+      <td>João</td>
+      <td>Engenheiro</td>
+    </tr>
+  </table>
+  <!-- Formulários -->
+  <h2>Formulário</h2>
+  <form action="/processar_form.php" method="POST">
+    <input type="text" name="nome_completo" placeholder="Digite seu nome" />
+    <br />
+    <textarea name="comentario" placeholder="Deixe um comentário"></textarea>
+    <br />
+    <select name="marca_de_carro">
+      <option>Ferrari</option>
+      <option>BMW</option>
+      <option>Audi</option>
+    </select>
+    <br />
+    <input type="email" name="email" />
+    <br />
+    <input type="number" name="salario" />
+    <br />
+    <input type="password" name="senha" />
+    <br />
+    <input type="submit" value="Enviar" />
+  </form>
+  <!-- Elemento de bloco -->
+  <div>
+    <h3>Algum texto</h3>
+    <p>Algum conteúdo</p>
+  </div>
+  <footer>
+    <p>Hora de Codar @ 2023</p>
+  </footer>
+</html>

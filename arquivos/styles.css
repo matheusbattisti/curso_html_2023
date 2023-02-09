@@ -1,0 +1,20 @@
+body {
+  background-color: #afaaaa;
+}
+
+li {
+  color: red;
+}
+
+.item {
+  color: blue;
+}
+
+#meu-titulo {
+  color: green;
+  font-size: 50px;
+  background-color: black;
+  border: 2px solid red;
+  margin: 50px;
+  padding: 50px;
+}
